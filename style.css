@@ -1,0 +1,128 @@
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;   
+}
+.shape:first-child{
+    background: linear-gradient(
+        to right,
+        #1845ad,
+        #23a2f6
+    );
+    box-shadow:0 0 60px #5b82dc;
+    left: -30px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        #ff512f,
+        #f09819
+    );
+    box-shadow: 0 0 60px rgb(182, 12, 12);
+    right: -30px;
+    bottom: -80px;
+}
+
+
+body {
+    background-color: #080710;
+}
+
+form {
+    height: 520px;
+    width: 400px;
+    background-color: #ffffff21;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    border: 2px solid #ffffff1a;
+    box-shadow: 0 0 40px #08071099;
+}
+form *{
+    
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width:380px;
+    background-color: #ffffff12;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+    margin-top: 30px;
+    display: flex;
+}
+.social div{
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: #ffffff07;
+    color: #eaf0fb;
+    text-align: center;
+}
+.social div:hover{
+    transition: 0.7s;
+    transform: scale(0.9);
+    background-color: #ffffff14;
+}
+.social .fb{
+    margin-left: 100px;
+}
+.social i{
+    margin-right: 4px;
+}
+a{
+ text-decoration: none;   
+}
+h4{
+    font-size: 18px;
+    text-align: center;
+     margin-top: 0px;
+}
